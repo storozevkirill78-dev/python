@@ -1,0 +1,69 @@
+#Задание 1
+a= int(input("Входные данные \n >>>"))
+b = a // 60
+s = a - (b*60) 
+print(f"Выходные данные: \n >>> {b} \n >>> {s}")
+#Задание 2
+a = 8
+b = 12
+h = int(input("Введите кол-во часов "))
+if h == a:
+    print("Это нормально")
+elif h > b:
+    print("Пересып")
+elif h < a:
+    print("Недосып")
+
+#Задание 3
+# from math import sqrt
+# a = int(input())
+# b = int(input())
+# c = int(input())
+# p = (a + b + c) / 2
+# s = sqrt(p * ((p - a) * (p - b) * (p - c)))
+# print(s)
+
+# Задание 4
+# from math import sqrt
+# type = input("Введите тип фигуры: ")
+# if type == "Треугольник":
+#     a = int(input("Введите сторону A: "))
+#     b = int(input("Введите сторону B: "))
+#     c = int(input("Введите сторону C: "))
+#     p = (a + b + c) / 2
+#     s = sqrt(p * ((p - a) * (p - b) * (p - c)))
+#     print(s)
+# elif type == "Прямоугольник":
+#     pass
+# elif type == "Круг":
+#     r = int(input("Введите радиус: "))
+#     print("Площадь данной комнаты: ", 3.14 * (r ** 2))
+#Задание 5
+f = int(input())
+if f % 10 ==1 and f %100 !=11:
+    word = "программист"
+elif 2<= f % 10 <= 4 and (f % 100 <10 or f % 100>= 20):
+    word ="программиста"
+else:
+    word ="программистов"
+print(f"{f} {word}")
+
+#Задание 6
+a = str(input("Входные данные: \n >>> "))
+b = int(a)
+c = b // 1000
+d = b - c * 1000
+e = c // 100
+f = c - e * 100
+g = f // 10
+h = f - g * 10
+i = d // 100
+j = d - i * 100
+k = j // 10
+l = j - k * 10
+sum1 = e + g + h
+sum2 = i + k + l
+if sum1 == sum2:
+    print("Выходные данные: \n >>> Счастливый")
+else:
+    print("Выходные данные: \n >>> Не счастливый")
