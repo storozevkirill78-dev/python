@@ -1,0 +1,336 @@
+#Variant 1
+# zadanie 1
+# def chislo(a):
+#     if a == 0:
+#         print(1)
+#     else:
+#         print(abs(n))
+# chislo(-1)
+# chislo(4)
+# zadanie 2
+# def text(a):
+#     if "." in a or  "," in a:
+#         print(True)
+#     else:
+#         print(False)
+# text("fgjk,.")
+# text("text")
+# zadanie 3
+# def summ(a,b):
+#     if a % 3 == 0 and b % 3 == 0 :
+#         print(True)
+#     elif a % 3 == 0 or b % 3 == 0:
+#         print("Одно чсило делится на 3")
+#     else:
+#         print(False)
+# summ (3,3)
+# summ (3,1)
+# summ (1,2)
+#variant 2
+# zadanie 1
+# def zvezdochek(a):
+#     if a >= 100 :
+#         print("*")
+#     elif a <= 100 :
+#         print(a*"*")
+# zvezdochek(10)
+# zvezdochek(100)
+# zadanie 2
+# def stroka(a,b):
+#     if a == b :
+#         print(True)
+#     else:
+#         print(False)
+# stroka("adb","adb")
+# stroka("adb","adf")
+# zadanie 3
+# def color(r,g,b):
+#     if r == 0 and g == 0 and b == 0:
+#         print("Черный цвет")
+#     elif r and g and b == 255:
+#         print("Белый цвет")
+#     elif r == 255  and g == 0  and b == 0:
+#         print("Красный цвет")
+#     elif g == 255 and r == 0 and b == 0:
+#         print("Зелёный цвет")
+#     elif b == 255 and r == 0 and g == 0:
+#         print("Синий цвет")
+#     else:
+#         print("Нет цвета")
+# color(0,0,0)
+# color(255,255,255)
+# color(255,0,0)
+# color(0,255,0)
+# color(0,0,255)
+# color(0,143,25)
+# varian 3
+# zadanie 1
+# def chislo (a):
+#     if a > 0 :
+#         print(a-1,a,a+1)
+#     elif a <= 0:
+#         print(1)
+# chislo(-1)print
+# chislo(1)
+# zadanie 2
+# def file(a):
+#     if a[-1] in "c":
+#         print(" Это Word file")
+#     elif a[-1] in "y":
+#         print(" Это Python file")
+#     elif a[-1] in "t" and a[-2] in "x":
+#         print("Это Текстовфй документ")
+#     else:
+#         print("Это не корректый формат файла")
+# zadanie 3
+# def treugolnik(a,b,c):
+#     if a == b :
+#         print("Треугольник равнобедренный ")
+#     elif a == b == c :
+#         print("Треугольник равносторонний")
+
+#     elif a != b != c:
+#         print("Треугольник разносторонний")
+# treugolnik(2,2,3)
+# treugolnik(2,2,2)
+# treugolnik(1,2,3)
+# variant 4
+# zadanie 1 
+# def text(b):
+#     a = "important information in one line"
+#     if b in a:
+#         print(True)
+#     else:
+#         print(False)
+
+# text("i")
+# text("x")
+# zadanie 2
+# def figura(a,b):
+#     if a == b :
+#         print("Квадрат",a*b)
+#     else:
+#         print("Прямоугольник",a*b)
+# figura(10,10)
+# figura(10,9)
+# zadanie 3
+# def dela(a):
+#     if a == "хорошо" or a == "нормально" or a == "отлично":
+#         print("радостный смайлик")
+#     elif a == "плохо" or a == "не хорошо"  :
+#         print("так себе")
+#     else:
+#         print("печалик")
+# dela("хорошо")
+# dela("нормально")
+# dela("отлично")
+# dela("плохо")
+# dela("не хорошо")
+# dela("я мопс")
+# variant 5 
+# zadanie 1
+# def stepen(a,b):
+#     if a > b :
+#         print(a**b)
+#     elif a < b :
+#         print(b**a)
+#     else:
+#         print(a+b)
+        
+# stepen(2, 3)
+# stepen(3, 2)
+# stepen(2, 2)
+# zadanie 2
+# def stroka(a):
+#     new_message = "Hello! How are you?"
+#     if a[0] == "H" and a[1] == "e":
+#         print(True)
+#     else:
+#         print(False)
+# stroka("asahell")
+# stroka("Hello")
+# zadanie 3
+# b = int(input())
+# def das(a,b):
+#     if a > b:
+#         print(f"Этот отрезок равен {a}, и длинее другого на {a - b}")
+#     if a < b:
+#         print(f"Этот отрезок равен {b}, и длинее другого на  {b -a}")
+#     if a == b:
+#         print("Отрезки равны")
+# das(a,b)
+# variant 6
+# zadanie 1
+# a = str(input())
+# def stroka(a):
+#     if a[0] == a[-1]:
+#         print(True)
+#     else: 
+#         print(False)   
+# stroka(a)
+# zadanie 2
+# a = int(input("Введите число:"))
+# def stepen(a):
+#     if a % 2 == 0 :
+#         print(a**2)
+#     elif a % 3 == 0 :
+#         print(a**3)
+#     else:
+#         print(a*100)        
+# stepen(a)
+# zadanie 3
+# a = int(input("Введите число:"))
+# b = int(input("Введите число:"))
+# def pls(a,b):
+#     if a < 0 and b < 0 :
+#         print(False)
+#     elif a < 0 :
+#         print(a+1000,b)
+#     elif b < 0 :
+#         print(a,b+1000)
+#     else:
+#         print(True)
+# pls(a,b)
+# variant 7
+# zadanie 1
+# a = str(input("Введите строку"))
+# def strok(a):
+#     if a[-1] =="я" or a[-1] == "и" or a[-1] == "е" or a[-1] == "ю":
+#         print(True)
+#     else:
+#         print(False)
+# strok(a)
+# zadanie 2
+# a = int(input("Введите сторону треугольника"))
+# b = int(input("Введите сторону треугольника"))
+# c = int(input("Введите сторону треугольника"))
+# def treugolnik(a,b,c):
+#     if a<= 0 or b<=0 or c<=0:
+#         print(False)
+#     else:
+#         print(True)
+# treugolnik(a,b,c)
+# zadanie 3
+# n = int(input())
+# def abc (n):
+#     if n % 10 == 0:
+#         print(n ** 10)
+#     elif n % 10 == 1:
+#         print(n/3)
+#     elif n % 10 == 2:
+#         print(n//2)
+#     elif n % 10 >= 3:
+#         print(n ** 2)
+# abc(n)
+# variant 8
+# zadanie 1
+# s = input()
+# def pas (s):
+#     if len(s) < 8 or s == "qwerty123":
+#         print(False)
+#     else:
+#         print(True)
+# pas(s)\
+# zadanie 2
+# pc_number = 777
+# a = int(input())
+# b = int(input())
+# def toporiki(a,b):
+#     if a < pc_number < b or b < pc_number < a:
+#         print(True)
+#     else:
+#         print(False)
+# toporiki(a,b)
+# zadanie 3
+# lamp1 = 0
+# lamp2 = 0
+
+# n = int(input("какую лампу зажечь или выключить? 1 - лампа номер1 или 2 - лампа номер2: "))
+# def lampi(n):
+#     global lamp1, lamp2
+#     if n == 1:
+#         if lamp1 == 0:
+#             print("Зажег лампу 1")
+#             lamp1 = 1
+#         else:
+#             print("Выключил лампу 1")
+#             lamp1 = 0
+#     elif n == 2:
+#         if lamp2 == 0:
+#             print("Зажег лампу 2")
+#             lamp2 = 1
+#         else:
+#             print("Выключил лампу 2")
+#             lamp2 = 0
+#     else:
+#         print("ОШИБКА")
+# for i in range(100):
+#     lampi(n)
+# variant 9
+# zadanie 1
+# Switch1 = False
+# Switch2 = False
+# ans =input("Включить?")
+# def switch(ans):
+#     if ans == "да":
+#         Switch1 = True
+#         Switch2 = True
+#         print(f"Всё включено состояние Switch1: {Switch1} состояние Switch2: {Switch2}")
+#     else:
+#         Switch1 = False
+#         Switch2 = False
+#         print(f"Изначальные значения Switch1: {Switch1}  Switch2: {Switch2}")
+# switch(ans)
+# zadanie 2
+# n = int(input())
+# def s(n):
+#     if n > 0 and n % 2 == 0:
+#         print("True, even")
+#     elif n >0 and n % 2 != 0:
+#         print("True, odd")
+#     else:
+#         print(False)
+# s(n)
+# zadanie 3
+# st = input()
+# def string(st):
+#     if st[0] == "/":
+#         print("command")
+#     else:
+#         print("This is string")
+# string(st)
+# variant 10
+# zadanie 1
+# string = input()
+# def st(string):
+#     if len(string) == 0:
+#         print("None")
+#     elif len(string) <= 5:
+#         print("Short")
+#     elif 6 <= len(string) <= 10:
+#         print("Normal")
+#     else:
+#         print("Long")
+# st(string)
+# zadanie 2
+# n = int(input())
+# def number (n):
+#     if n < 0:
+#         n = 1000000
+#         print(n)
+#     elif n == 0:
+#         n = 2 
+#         print(n **2)
+#     else:
+#         print(n**3)
+# number(n)
+# zadanie 3
+# n1 = 10
+# n2 = 100
+# n = int(input())
+# def prom(n):
+#     if n1 <= n <= n2:
+#         print(True)
+#     else:
+#         print(False)
+# prom(n)
